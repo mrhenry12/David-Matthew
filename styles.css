@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background-image.jpg'); /* Replace 'background-image.jpg' with your actual image file */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* White text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+}
+
+.about, .skills, .contact {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Amazing box shadow */
+}
+
+.about h2, .skills h2, .contact h2 {
+    color: #ff6600; /* Orange text color */
+}
+
+.about p, .skills ul, .contact p {
+    color: #ffffff; /* White text color */
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
